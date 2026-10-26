@@ -1,0 +1,89 @@
+/* ===== Seletor de tag: estilo geral da página ===== */
+body {
+    background-color: #fff8e1;          /* cor de fundo */
+    color: #333333;                     /* cor do texto */
+    font-family: 'Roboto', sans-serif;  /* fonte do Google Fonts */
+    font-size: 18px;                    /* tamanho do texto */
+    line-height: 1.6;                   /* altura da linha */
+    max-width: 800px;
+    margin: 0 auto;                     /* Box Model: margin (centraliza) */
+    padding: 20px;                      /* Box Model: padding */
+}
+
+/* ===== Agrupamento de seletores: h1 e h2 ficam com a mesma cor e fonte ===== */
+h1,
+h2 {
+    color: #d35400;                     /* cor diferente de preto */
+    font-family: 'Poppins', sans-serif; /* outra fonte do Google Fonts */
+}
+
+h1 {
+    text-align: center;                 /* h1 alinhado ao centro */
+    font-size: 40px;
+    letter-spacing: 2px;                /* espaço entre as letras */
+}
+
+h2 {
+    font-size: 26px;
+    text-transform: uppercase;          /* letras maiúsculas */
+}
+
+/* ===== Seletor de id: cabeçalho ===== */
+#topo {
+    border-bottom: 4px solid #f5a623;   /* borda: largura, estilo e cor */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* ===== Seletor de classe: parágrafo em destaque ===== */
+.destaque {
+    background-color: #ffe0b2;
+    text-align: justify;                /* alinhamento do texto */
+    padding: 15px;                      /* Box Model: padding */
+    margin: 20px 0;                     /* Box Model: margin */
+    border: 3px dashed #d35400;         /* Box Model: border (largura, estilo, cor) */
+    border-radius: 10px;                /* cantos arredondados */
+}
+
+/* ===== Menu ===== */
+nav {
+    text-align: center;
+}
+
+/* ===== Links ===== */
+a {
+    color: #0b5fa5;
+    text-decoration: none;
+}
+
+/* Efeito hover: muda quando o mouse passa por cima */
+a:hover {
+    color: #d35400;
+    text-decoration: underline;
+}
+
+/* ===== Listas ===== */
+ul {
+    list-style-type: square;            /* marcador quadrado */
+    list-style-position: inside;        /* marcador dentro da área do texto */
+}
+
+ol {
+    list-style-type: upper-roman;       /* números romanos (I, II, III) */
+}
+
+/* ===== Imagem ===== */
+img {
+    display: block;
+    margin: 20px auto;                  /* centraliza a imagem */
+    border: 2px solid #f5a623;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* ===== Rodapé ===== */
+footer {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
+}
